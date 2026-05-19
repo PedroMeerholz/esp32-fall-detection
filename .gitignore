@@ -3,6 +3,9 @@
 .AppleDouble
 .LSOverride
 
+# VSCode
+.vscode/
+
 # Directory metadata
 .directory
 
