@@ -1,0 +1,1 @@
+altere `set(common_flags -DTF_LITE_STATIC_MEMORY -DTF_LITE_DISABLE_X86_NEON -O3` para `set(common_flags -DTF_LITE_STATIC_MEMORY -DTF_LITE_DISABLE_X86_NEON -O2`, no arquivo `managed_components/espressif__esp-tflite-micro/CMakeLists.txt`
