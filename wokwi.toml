@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "build/fall-detection.bin"
+elf = "build/fall-detection.elf"

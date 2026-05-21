@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "author": "Pedro Vinícius Meerholz",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-s2-devkitm-1", "id": "esp", "top": -4.31, "left": 4.57, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": 80.62, "left": -151.28, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "imu1:GND", "esp:GND.1", "black", [ "v-19.2", "h67.28", "v144" ] ],
+    [ "imu1:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "imu1:SCL", "esp:9", "green", [ "v-28.8", "h86.48", "v57.6" ] ],
+    [ "imu1:SDA", "esp:8", "green", [ "v-38.4", "h105.68", "v57.6" ] ]
+  ],
+  "dependencies": {}
+}
